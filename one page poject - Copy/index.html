@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }  
+    #menu ul
+    {
+        list-style: none; 
+    }
+    #menu ul li
+    {
+        width: 251px;
+        height: 40px;
+        background-color: black;
+        border: 1px solid white;
+        text-align: center;
+        float: left;
+        line-height: 40px;
+        list-style: none;
+        position: relative;
+        border-radius: 10px;
+
+    }
+    #menu ul li a
+    {
+        text-decoration: none;
+        color: white;
+        display: block;
+    }
+    #menu ul li a:hover
+    {
+        background-color: indianred;
+    }
+    #menu ul ul
+    {
+        position: absolute;
+        display: none;    
+    }
+    #menu ul li:hover > ul
+    {
+        display: block;
+    }
+    #photo img{
+        width:100%;
+    }    
+    .header_bar{
+        width: 100%;
+        height: 50px;
+        background: black;
+    }
+    .header_bar{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 50px;
+    }
+    .chines ul{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        background: grey;
+    }
+    .chines ul li{
+        list-style: none;
+    }
+    .chines ul li img{
+        width: 300px;
+        height: 250px;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    .Indian ul{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        background: grey;
+    }
+    .Indian ul li{
+        list-style: none;
+    }
+    .Indian ul li img{
+        width: 300px;
+        height: 250px;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    .Desserts ul{
+        display: flex;
+        width: 70%;
+        margin: auto;
+        background: grey;
+    }
+    .Desserts ul li{
+        list-style: none;
+    }
+    .Desserts ul li img{
+        width: 300px;
+        height: 250px;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    body{
+		font-size: 15px;
+		line-height: 30px;
+	}
+    html 
+	{
+		scroll-behavior: smooth;
+	}
+    #About_us img{
+        width: 100%;
+    }
+    .header_bar img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="header_bar">
+        LAZIZ
+    </div>
+
+    <div id="menu">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chinese</a></li>
+        <li><a href="#">Indian</a></li>
+        <li><a href="#">Italian</a></li>
+        <li><a href="#">Desserts</a></li>
+        <li><a href="#">About Us</a></li>
+    </ul>
+    </div>
+    <div id="photo">
+        <img src="food-banner.jpg">
+    </div>
+    <!--start chinese section -->
+    <div class="chines">
+        <h1>Chinese Food </h1>
+        <ul>
+            <a href="#"><li><img src="chines1.jfif"><h1>Noddles</h1></li></a>
+            <a href="#"><li><img src="chines2.jpg" ><h1>Manchurian</h1></li></a>
+            <a href="#"><li><img src="chines5.jpg" ><h1>Pizza</h1></li></a>
+        </ul>
+        <ul>
+            <a href="#"><li><img src="chines6.png" ><h1>Burger</h1></li></a>
+            <a href="#"><li><img src="chines7.webp"><h1>Greek Pizza</h1></li></a>
+            <a href="#"><li><img src="chines8.jpg" ><h1>Galik bread</h1></li></a>
+        </ul>
+    </div>
+    <br>
+    <!--end chinese section -->
+
+    <!--start indian section -->
+    <div class="Indian">
+        <h1>Indian Food </h1>
+        <br>
+        <ul>
+            <a href="#"><li><img src="indian1.webp"><h1>Dosa</h1></li></a>
+            <a href="#"><li><img src="indian2.jpg" ><h1>Chole bhature</h1></li></a>
+            <a href="#"><li><img src="indian3.jpg" ><h1>Pav Bhaji</h1></li></a>
+        </ul>
+        <ul>
+            <a href="#"><li><img src="indian4.jpg" ><h1>Puran Poli</h1></li></a>
+            <a href="#"><li><img src="indian5.webp" ><h1>Idli</h1></li></a>
+            <a href="#"><li><img src="indian6.webp" ><h1>Khichdi</h1></li></a>
+        </ul>
+    </div>
+    <br>
+    <!--end indian section -->
+
+    <!--start Desserts section -->
+    <div class="Indian">
+        <h1>Desserts Food </h1>
+        <br>
+        <ul>
+            <a href="#"><li><img src="desserts1.jfif" ><h1>Jell-O</h1></li></a>
+            <a href="#"><li><img src="desserts2.jfif" ><h1>Pecan pie</h1></li></a>
+            <a href="#"><li><img src="desserts3.webp" ><h1>Ice Cream</h1></li></a>
+        </ul>
+        <ul>
+            <a href="#"><li><img src="desserts4.jfif"><h1>Chip Cookies</h1></li></a>
+            <a href="#"><li><img src="desserts7.jpg"><h1>Strawberry dessert</h1></li></a>
+            <a href="#"><li><img src="dessert6.jpg"><h1>Choco Cake</h1></li></a>
+        </ul>
+    </div>
+    <br>
+    <!--end Desserts section -->
+
+    <!--startAbout section -->
+    <div id="About_us">
+        <img src="contact10.png">
+
+    </div>
+    <!--end About section -->
+</body>
+</html>
